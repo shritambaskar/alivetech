@@ -18,8 +18,7 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".SecondActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.EDIT" />
 
