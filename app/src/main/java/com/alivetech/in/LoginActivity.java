@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputLayout;
@@ -56,6 +57,8 @@ public class LoginActivity extends AppCompatActivity {
                 }
             },5000);
 
+        }else{
+            Toast.makeText(this, "Username & password Mismatch", Toast.LENGTH_LONG).show();
         }
 
     }
