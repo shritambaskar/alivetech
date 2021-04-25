@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AliveTechnologies">
-        <activity android:name=".DashboardActivity"></activity>
+        <activity android:name=".FlipperActivity"></activity>
+        <activity
+            android:name=".DashboardActivity"
+            android:theme="@style/Theme.Flipper"></activity>
         <activity android:name=".RegistrationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

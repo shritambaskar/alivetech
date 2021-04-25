@@ -48,7 +48,7 @@ public class LoginActivity extends AppCompatActivity {
             new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
-                    Intent intent = new Intent(LoginActivity.this,DashboardActivity.class);
+                    Intent intent = new Intent(LoginActivity.this,FlipperActivity.class);
                     startActivity(intent);
                     username.getEditText().setText("");
                     password.getEditText().setText("");
