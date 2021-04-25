@@ -2,6 +2,7 @@ package com.alivetech.in;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -25,7 +26,7 @@ public class FlipperActivity extends AppCompatActivity {
 
     private void sliderAnimation() {
         sliderLayout.setIndicatorAnimation(IndicatorAnimations.FILL);
-        sliderLayout.setScrollTimeInSec(2);
+        sliderLayout.setScrollTimeInSec(1);
         setSliderView();
     }
 
