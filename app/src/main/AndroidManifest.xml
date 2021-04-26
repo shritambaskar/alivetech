@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AliveTechnologies">
-        <activity android:name=".FlipperActivity"></activity>
+        <activity android:name=".FlipperActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".DashboardActivity"
             android:theme="@style/Theme.Flipper"></activity>
